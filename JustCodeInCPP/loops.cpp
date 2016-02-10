@@ -12,5 +12,10 @@ int main(){
    for(int i=0;i<10; i ++){
     cout << i << " -- " << i * (i-1) << endl;
    }
+ 	i = 0;
+	do{
+		cout<< i << i*i*i << endl;
+		i++;
+	}while(i<10);
 
 }
